@@ -1,7 +1,7 @@
 
 # Register Tenant with a DWN Server
 
-This program will register a tenant with a DWN server.  If a DWN Server has the option `DWN_REGISTRATION_PROOF_OF_WORK_ENABLED` turned on, then the API calls will get rejected since the tenant is not registered.  
+This program will register a tenant with a DWN server.  If a DWN Server has the option `DWN_REGISTRATION_PROOF_OF_WORK_ENABLED` turned on, then the API calls will get rejected since the tenant is not registered. You will get an error message similar to `{code: 401, detail: "Not a registered tenant."}` 
 
 The 2 parameters needed are the tenant did and the DWN server endpoint.
 
